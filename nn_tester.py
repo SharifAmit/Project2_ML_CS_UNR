@@ -29,6 +29,6 @@ X_test = np.array([[1,1],\
               [8,7]])
 Y_test = np.array([[1],[-1],[1],[-1],[1],[-1],[1],[-1],[1],[-1]])
 
-best_acc, best_k = choose_K(X_train,Y_train,X_test,Y_test)
-print('Best Accuracy: ' + str(best_acc) + '%')
+best_k = choose_K(X_train,Y_train,X_test,Y_test)
+#print('Best Accuracy: ' + str(best_acc) + '%')
 print('Best_K: ' + str(best_k))

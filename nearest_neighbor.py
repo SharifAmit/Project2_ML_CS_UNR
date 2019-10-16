@@ -100,4 +100,4 @@ def choose_K(X_train,Y_train,X_val,Y_val):
             if best_acc < acc:
                 best_acc = acc
                 best_k=k
-    return best_acc, best_k
+    return best_k
